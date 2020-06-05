@@ -1,0 +1,65 @@
+{ "menu":[
+    {"appetizers": [
+        {
+        "name": "appetizer 1",
+        "ingredients": ["ingredients 1", "ingredient 2", "ingredient 3"],
+        "description": "Delicious!"
+        },
+        {
+        "name": "appetizer 2",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "Scrumtious!"
+        }
+    ]},
+    {"hot sandwiches": [
+        {
+        "name": "hot sandwich 1",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "Quite good!"
+        }
+    ,   {
+        "name": "hot sandwich 2",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "My favorite!"
+        }
+    ]},
+    {"cold sandwiches": [
+        {
+        "name": "cold sandwich 1",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "Best around!"
+        }
+        ,{
+        "name": "cold sandwich 2",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "OMG!"
+        }
+    ]},
+    {"desserts": [
+        {
+        "name": "dessert 1",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "Tasty!"
+        },
+        {
+        "name": "dessert 2",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "The best one!"
+        }
+    ]},
+    {"drinks": [
+        {
+        "name": "drink 1",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "My drink!"
+        }
+        ,{
+        "name": "drink 2",
+        "ingredients": ["ingredient 1", "ingredient 2", "ingredient 3"],
+        "descrition": "Can't live without!"
+        }
+    ]}
+]
+} 
+    
+    
