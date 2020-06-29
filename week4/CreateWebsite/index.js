@@ -1,30 +1,23 @@
-var page1 = getElementById("page1")
+ var page1 =document.getElementById("page1")
 
-function page(){
+    function page() {
+         
+        axios.get("https://api.vschool.io/pokemon")
+    .then(response => { console.log()
+        for(let i = 0; i < Object.keys(response.data).length; i++)}
+        
+            const div = document.createElement("div")
+            div.textContent = response.data.name
+            document.body.appendChild(div)   
+            
+            const h1 = document.createElement("h1")
+            h1.textContent = Object.keys(response.data)[i]
+            div.appendChild(h1) 
+                  
+     
+        
+    axios.catch(error => console.log(error))
+    console.log(page1)
+    }
     
-
-const button = document.createElement('button')
-button.textContent = arr[i].description
-document.body.appendChild(button)
-button.addEventListener("click",function(){axios.get("https://api.vschool.io/pokemon")
-.then(response => {console.log(response)
-    showData(response.data)
-})
-.catch(error => console.log(error))
-})
-
-function showData(arr){
-
-    for (let i = 0 ; i < arr.length ; i ++){
-    const h1 = document.createElement('h1')
-    h1.textContent = arr[i].name
-    document.body.appendChild(h1)
-    
-    const p = document.createElement('p')
-    p.textContent = arr[i].resource_uri
-    document.body.appendChild(p)
-    
-    const pokemonArr = data.objects[0].pokemon
-        showData(pokemonArr)
-
-}}
+    page1.addEventListener("click", page)
