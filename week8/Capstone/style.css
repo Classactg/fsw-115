@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.complete{
+    text-decoration: line-through}
+
+    html{
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5c392fc21aef1d1735ec4e1b/1549460315945-RZMZBL2NR8XH4S4JBSWT/ke17ZwdGBToddI8pDm48kNgFyjlEyNHlSWEjE-QCU1p7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdLKTLgsLX9_T7LnpaostY9WYLb0IFNaX6bgMhY2dUNBWIB-7cQgYKo_bDpR6cEVkg/jilee06.jpg");
+        background-repeat: repeat-y;
+        background-size: 100vw;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+
+    }
+    body{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+       
+
+    }
+    li{ text-align:center;
+        border:solid black 5px;
+        width: 35vw;
+        font-family: 'Lobster', cursive;
+    }
