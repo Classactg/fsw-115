@@ -29,8 +29,9 @@ function listLocationsToDOM(locations){
     const h1 = document.createElement("h1")
     h1.textContent = `${locations.data.name}`
     document.body.appendChild(h1)
+
 }
 
 // axios.get("https://rickandmortyapi.com/api/location/4").then(res=>{
 //     console.log(res)
-// })
+// }
